@@ -1,0 +1,42 @@
+# PHP Unit & Testing Cache
+/.phpunit.cache
+.phpunit.result.cache
+
+# Node.js Dependencies
+/node_modules
+
+# Laravel Build Files
+/public/build
+/public/hot
+
+# Laravel Storage (Linked Storage & Keys)
+/public/storage
+/storage/*.key
+/storage/pail
+
+# Vendor Directory (Managed by Composer)
+/vendor
+
+# Environment & Configuration Files (Sensitive Data)
+.env
+.env.backup
+.env.production
+auth.json
+
+# Laravel Homestead (Vagrant Configuration)
+Homestead.json
+Homestead.yaml
+
+# PHP Tools & Editor Configurations
+.phpactor.json
+
+# Log & Error Files
+npm-debug.log
+yarn-error.log
+
+# IDE & Editor-Specific Files
+/.fleet        # JetBrains Fleet
+/.idea         # PhpStorm/WebStorm
+/.nova         # Laravel Nova
+/.vscode       # VS Code settings
+/.zed          # Zed editor settings
