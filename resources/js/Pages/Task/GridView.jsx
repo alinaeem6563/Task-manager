@@ -94,8 +94,8 @@ export default function GridView() {
             <Head title="Tasks" />
             <div className="py-12 bg-neutral-200 dark:bg-neutral-950">
                 <div className=" max-w-7xl sm:px-8 lg:p-10 bg-neutral-200 dark:bg-neutral-950">
-                    <div className=" overflow-hidden bg-neutral-100 dark:bg-neutral-950 shadow-sm sm:rounded-lg">
-                        <div className=" p-6 text-gray-900 dark:text-white">
+                    <div className=" overflow-hidden g-neutral-200 dark:bg-neutral-950 shadow-sm sm:rounded-lg">
+                        <div className=" p-6 text-gray-900 dark:text-white bg-neutral-200 dark:bg-neutral-950">
                             <KanbanBoard />
                         </div>
                     </div>

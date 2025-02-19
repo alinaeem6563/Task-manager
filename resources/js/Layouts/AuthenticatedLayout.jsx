@@ -19,7 +19,11 @@ export default function AuthenticatedLayout({ header, children }) {
     return (
         <SidebarProvider>
             <AppSidebar />
-            <div className=" min-h-screen w-full bg-gray-100 ">
+            <div
+                className=" min-h-screen w-full bg-neutral-200
+                dark:bg-neutral-950 "
+                
+            >
                 {header && (
                     <header
                         className="dark:bg-neutral-900 flex flex-wrap  max-w-7xl  
@@ -43,7 +47,9 @@ export default function AuthenticatedLayout({ header, children }) {
                     </header>
                 )}
 
-                <main className="">{children}</main>
+                <main className="bg-neutral-200 dark:bg-neutral-950 dark:text-white">
+                    {children}
+                </main>
             </div>
         </SidebarProvider>
     );
