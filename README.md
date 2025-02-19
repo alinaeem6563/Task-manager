@@ -31,28 +31,16 @@ A modern **Task Management Application** built with **Laravel 11**, **Inertia.js
 git clone https://github.com/alinaeem6563/Task-manager.git
 cd Task-manager
 2️⃣ Install Dependencies
-sh
-Copy
-Edit
 composer install
 npm install
 3️⃣ Configure Environment
-sh
-Copy
-Edit
 cp .env.example .env
 php artisan key:generate
 Update .env with database credentials.
 
 4️⃣ Run Migrations
-sh
-Copy
-Edit
 php artisan migrate
 5️⃣ Start Development Server
-sh
-Copy
-Edit
 php artisan serve
 npm run dev
 The application will be available at http://localhost:8000 🚀
